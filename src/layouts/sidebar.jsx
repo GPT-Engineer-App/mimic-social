@@ -9,7 +9,7 @@ import {
 } from "@/components/ui/dropdown-menu";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { cn } from "@/lib/utils";
-import { Bell, MessageSquare, Search, User } from "lucide-react";
+import { Bell, MessageSquare, Search, User, Menu } from "lucide-react"; // Added Menu import
 import { NavLink, Outlet } from "react-router-dom";
 import { navItems } from "../App";
 
