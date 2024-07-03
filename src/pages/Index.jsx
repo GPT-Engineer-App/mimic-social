@@ -1,10 +1,17 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 const Index = () => {
   return (
-    <div className="text-center">
-      <h1 className="text-3xl">Your Blank Canvas</h1>
-      <p>Chat with the agent to start making edits.</p>
+    <div className="space-y-4">
+      <Card>
+        <CardHeader>
+          <CardTitle>Welcome to Facebook</CardTitle>
+        </CardHeader>
+        <CardContent>
+          <p>This is the main content area where posts will appear.</p>
+        </CardContent>
+      </Card>
+      {/* Add more content here */}
     </div>
   );
 };
